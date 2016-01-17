@@ -85,6 +85,8 @@ const ivt_t ivt[] = {
 
 int main(void)
 {
+	Xil_ICacheEnable();
+	Xil_DCacheEnable();
 	DemoInitialize();
 
 	DemoRun();
