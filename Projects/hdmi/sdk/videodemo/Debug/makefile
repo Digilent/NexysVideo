@@ -40,7 +40,7 @@ all: videodemo.elf secondary-outputs
 videodemo.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MicroBlaze gcc linker'
-	mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../videodemo_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "videodemo.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "videodemo.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

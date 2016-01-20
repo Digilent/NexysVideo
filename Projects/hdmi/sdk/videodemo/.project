@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>videodemo</name>
-	<comment>Created by SDK v2015.3. videodemo_bsp - microblaze_0</comment>
+	<comment></comment>
 	<projects>
 		<project>videodemo_bsp</project>
 	</projects>

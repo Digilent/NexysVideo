@@ -35,7 +35,7 @@
 								<option id="xilinx.gnu.mb.compiler.inferred.fpu.750654106" superClass="xilinx.gnu.mb.compiler.inferred.fpu" value="xilinx.gnu.mb.compiler.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.mul.254056571" superClass="xilinx.gnu.mb.compiler.inferred.mul" value="xilinx.gnu.mb.compiler.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.1474778345" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/include"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/include"/>
 								</option>
 								<inputType id="xilinx.gnu.compiler.input.222662115" name="C source files" superClass="xilinx.gnu.compiler.input"/>
 							</tool>
@@ -51,7 +51,7 @@
 								<option id="xilinx.gnu.mb.compiler.inferred.fpu.395043795" superClass="xilinx.gnu.mb.compiler.inferred.fpu" value="xilinx.gnu.mb.compiler.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.mul.1259369475" superClass="xilinx.gnu.mb.compiler.inferred.mul" value="xilinx.gnu.mb.compiler.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.225359724" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/include"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/include"/>
 								</option>
 							</tool>
 							<tool id="xilinx.gnu.mb.toolchain.archiver.1289714967" name="MicroBlaze archiver" superClass="xilinx.gnu.mb.toolchain.archiver"/>
@@ -65,7 +65,7 @@
 								<option id="xilinx.gnu.mb.linker.inferred.fpu.555309172" superClass="xilinx.gnu.mb.linker.inferred.fpu" value="xilinx.gnu.mb.linker.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.linker.inferred.mul.306622852" superClass="xilinx.gnu.mb.linker.inferred.mul" value="xilinx.gnu.mb.linker.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.1510482380" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/lib"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/lib"/>
 								</option>
 								<option id="xilinx.gnu.linker.inferred.swplatform.flags.1859192784" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
@@ -87,7 +87,7 @@
 								<option id="xilinx.gnu.mb.linker.inferred.fpu.1537328364" superClass="xilinx.gnu.mb.linker.inferred.fpu" value="xilinx.gnu.mb.linker.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.linker.inferred.mul.818200807" superClass="xilinx.gnu.mb.linker.inferred.mul" value="xilinx.gnu.mb.linker.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.1375579926" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/lib"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/lib"/>
 								</option>
 								<option id="xilinx.gnu.linker.inferred.swplatform.flags.290083550" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
@@ -135,7 +135,7 @@
 								<option id="xilinx.gnu.mb.compiler.inferred.fpu.1372133099" superClass="xilinx.gnu.mb.compiler.inferred.fpu" value="xilinx.gnu.mb.compiler.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.mul.1381878177" superClass="xilinx.gnu.mb.compiler.inferred.mul" value="xilinx.gnu.mb.compiler.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.549869116" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/include"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/include"/>
 								</option>
 								<inputType id="xilinx.gnu.compiler.input.585599646" name="C source files" superClass="xilinx.gnu.compiler.input"/>
 							</tool>
@@ -151,7 +151,7 @@
 								<option id="xilinx.gnu.mb.compiler.inferred.fpu.1696476105" superClass="xilinx.gnu.mb.compiler.inferred.fpu" value="xilinx.gnu.mb.compiler.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.mul.1213557763" superClass="xilinx.gnu.mb.compiler.inferred.mul" value="xilinx.gnu.mb.compiler.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.1178554710" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/include"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/include"/>
 								</option>
 							</tool>
 							<tool id="xilinx.gnu.mb.toolchain.archiver.323211425" name="MicroBlaze archiver" superClass="xilinx.gnu.mb.toolchain.archiver"/>
@@ -165,7 +165,7 @@
 								<option id="xilinx.gnu.mb.linker.inferred.fpu.1426876540" superClass="xilinx.gnu.mb.linker.inferred.fpu" value="xilinx.gnu.mb.linker.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.linker.inferred.mul.1119097172" superClass="xilinx.gnu.mb.linker.inferred.mul" value="xilinx.gnu.mb.linker.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.1146399525" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/lib"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/lib"/>
 								</option>
 								<option id="xilinx.gnu.linker.inferred.swplatform.flags.1163208417" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
@@ -187,7 +187,7 @@
 								<option id="xilinx.gnu.mb.linker.inferred.fpu.123937529" superClass="xilinx.gnu.mb.linker.inferred.fpu" value="xilinx.gnu.mb.linker.inferred.fpu.full" valueType="enumerated"/>
 								<option id="xilinx.gnu.mb.linker.inferred.mul.972197423" superClass="xilinx.gnu.mb.linker.inferred.mul" value="xilinx.gnu.mb.linker.inferred.mul.64bit" valueType="enumerated"/>
 								<option id="xilinx.gnu.linker.inferred.swplatform.lpath.848245955" superClass="xilinx.gnu.linker.inferred.swplatform.lpath" valueType="libPaths">
-									<listOptionValue builtIn="false" value="../../videodemo_bsp/microblaze_0/lib"/>
+									<listOptionValue builtIn="false" value="C:/sam_work/git/digilent/NexysVideo/Projects/hdmi/proj/hdmi.sdk/videodemo_bsp/microblaze_0/lib"/>
 								</option>
 								<option id="xilinx.gnu.linker.inferred.swplatform.flags.1753141569" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
