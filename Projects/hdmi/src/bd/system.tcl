@@ -41,7 +41,7 @@ if { [get_projects -quiet] eq "" } {
 
 
 # CHANGE DESIGN NAME HERE
-set design_name design_1
+set design_name hdmi
 
 # If you do not already have an existing IP Integrator design open,
 # you can create a design using the following command:
