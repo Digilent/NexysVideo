@@ -1,0 +1,176 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Wed Jan 20 18:17:40 2016
+| Host         : WK86 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'xadc_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of xadc_wiz_0 from xilinx.com:ip:xadc_wiz:3.0 (Rev. 7) to xilinx.com:ip:xadc_wiz:3.2
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter WAVEFORM_TYPE with default value CONSTANT : a parameter called WAVEFORM_TYPE already exists in xadc_wiz_v3_2
+WARNING: upgrade cannot add parameter STIMULUS_FREQ with default value 1.0 : a parameter called STIMULUS_FREQ already exists in xadc_wiz_v3_2
+WARNING: upgrade cannot add parameter NUM_WAVE with default value 1 : a parameter called NUM_WAVE already exists in xadc_wiz_v3_2
+WARNING: upgrade cannot add parameter EXTERNAL_MUXADDR_ENABLE with default value false : a parameter called EXTERNAL_MUXADDR_ENABLE already exists in xadc_wiz_v3_2
+WARNING: upgrade cannot add parameter ENABLE_AXI4STREAM with default value false : a parameter called ENABLE_AXI4STREAM already exists in xadc_wiz_v3_2
+WARNING: upgrade cannot add parameter FIFO_DEPTH with default value 7 : a parameter called FIFO_DEPTH already exists in xadc_wiz_v3_2
+WARNING: there are only case-insensitive matches ENABLE_CONVST for parameter Enable_CONVST
+WARNING: there are only case-insensitive matches ENABLE_CONVSTCLK for parameter Enable_CONVSTCLK
+Renamed parameter INTERFACE_SELECTION (instead of Interface_Selection) to INTERFACE_SELECTION
+Renamed parameter SIM_FILE_NAME (instead of Sim_File_Name) to SIM_FILE_NAME
+Renamed parameter TIMING_MODE (instead of Timing_Mode) to TIMING_MODE
+Renamed parameter STARTUP_CHANNEL_SELECTION (instead of Startup_Channel_Selection) to STARTUP_CHANNEL_SELECTION
+Renamed parameter XADC_STARUP_SELECTION (instead of xadc_starup_selection) to XADC_STARUP_SELECTION
+Renamed parameter ENABLE_DCLK (instead of Enable_DCLK) to ENABLE_DCLK
+Renamed parameter INCREASE_ACQUISITION_TIME (instead of Increase_acquisition_time) to INCREASE_ACQUISITION_TIME
+Renamed parameter DCLK_FREQUENCY (instead of DCLK_Frequency) to DCLK_FREQUENCY
+Renamed parameter ADC_CONVERSION_RATE (instead of ADC_conversion_rate) to ADC_CONVERSION_RATE
+Renamed parameter SEQUENCER_MODE (instead of Sequencer_Mode) to SEQUENCER_MODE
+Renamed parameter ENABLE_CALIBRATION_AVERAGING (instead of Enable_Calibration_Averaging) to ENABLE_CALIBRATION_AVERAGING
+Renamed parameter ENABLE_DRP (instead of Enable_DRP) to ENABLE_DRP
+Renamed parameter ENABLE_RESET (instead of Enable_RESET) to ENABLE_RESET
+Renamed parameter ENABLE_CONVST (instead of Enable_CONVST) to ENABLE_CONVST
+Renamed parameter ENABLE_CONVSTCLK (instead of Enable_CONVSTCLK) to ENABLE_CONVSTCLK
+Renamed parameter ENABLE_CHANNEL (instead of Enable_CHANNEL) to ENABLE_CHANNEL
+Renamed parameter ENABLE_EOC (instead of Enable_EOC) to ENABLE_EOC
+Renamed parameter ENABLE_EOS (instead of Enable_EOS) to ENABLE_EOS
+Renamed parameter ENABLE_BUSY (instead of Enable_BUSY) to ENABLE_BUSY
+Renamed parameter ENABLE_JTAGLOCKED (instead of Enable_JTAGLOCKED) to ENABLE_JTAGLOCKED
+Renamed parameter ENABLE_JTAGMODIFIED (instead of Enable_JTAGMODIFIED) to ENABLE_JTAGMODIFIED
+Renamed parameter ENABLE_JTAGBUSY (instead of Enable_JTAGBUSY) to ENABLE_JTAGBUSY
+Renamed parameter OT_ALARM (instead of OT_Alarm) to OT_ALARM
+Renamed parameter USER_TEMP_ALARM (instead of User_Temp_Alarm) to USER_TEMP_ALARM
+Renamed parameter VCCINT_ALARM (instead of Vccint_Alarm) to VCCINT_ALARM
+Renamed parameter VCCAUX_ALARM (instead of Vccaux_Alarm) to VCCAUX_ALARM
+Renamed parameter ENABLE_VBRAM_ALARM (instead of Enable_Vbram_Alarm) to ENABLE_VBRAM_ALARM
+Renamed parameter TEMPERATURE_ALARM_TRIGGER (instead of Temperature_Alarm_Trigger) to TEMPERATURE_ALARM_TRIGGER
+Renamed parameter TEMPERATURE_ALARM_RESET (instead of Temperature_Alarm_Reset) to TEMPERATURE_ALARM_RESET
+Renamed parameter TEMPERATURE_ALARM_OT_TRIGGER (instead of Temperature_Alarm_OT_Trigger) to TEMPERATURE_ALARM_OT_TRIGGER
+Renamed parameter TEMPERATURE_ALARM_OT_RESET (instead of Temperature_Alarm_OT_Reset) to TEMPERATURE_ALARM_OT_RESET
+Renamed parameter VCCINT_ALARM_LOWER (instead of Vccint_Alarm_Lower) to VCCINT_ALARM_LOWER
+Renamed parameter VCCINT_ALARM_UPPER (instead of Vccint_Alarm_Upper) to VCCINT_ALARM_UPPER
+Renamed parameter VCCAUX_ALARM_LOWER (instead of Vccaux_Alarm_Lower) to VCCAUX_ALARM_LOWER
+Renamed parameter VCCAUX_ALARM_UPPER (instead of Vccaux_Alarm_Upper) to VCCAUX_ALARM_UPPER
+Renamed parameter VBRAM_ALARM_LOWER (instead of Vbram_Alarm_Lower) to VBRAM_ALARM_LOWER
+Renamed parameter VBRAM_ALARM_UPPER (instead of Vbram_Alarm_Upper) to VBRAM_ALARM_UPPER
+Renamed parameter ENABLE_VCCPINT_ALARM (instead of Enable_VCCPint_Alarm) to ENABLE_VCCPINT_ALARM
+Renamed parameter ENABLE_VCCPAUX_ALARM (instead of Enable_VCCPaux_Alarm) to ENABLE_VCCPAUX_ALARM
+Renamed parameter ENABLE_VCCDDRO_ALARM (instead of Enable_VCCDdro_Alarm) to ENABLE_VCCDDRO_ALARM
+Renamed parameter VCCDDRO_VOLT (instead of VCCDdro_volt) to VCCDDRO_VOLT
+Renamed parameter VCCPINT_ALARM_LOWER (instead of VCCPint_Alarm_Lower) to VCCPINT_ALARM_LOWER
+Renamed parameter VCCPINT_ALARM_UPPER (instead of VCCPint_Alarm_Upper) to VCCPINT_ALARM_UPPER
+Renamed parameter VCCPAUX_ALARM_LOWER (instead of VCCPaux_Alarm_Lower) to VCCPAUX_ALARM_LOWER
+Renamed parameter VCCPAUX_ALARM_UPPER (instead of VCCPaux_Alarm_Upper) to VCCPAUX_ALARM_UPPER
+Renamed parameter VCCDDRO_ALARM_LOWER (instead of VCCDdro_Alarm_Lower) to VCCDDRO_ALARM_LOWER
+Renamed parameter VCCDDRO_ALARM_UPPER (instead of VCCDdro_Alarm_Upper) to VCCDDRO_ALARM_UPPER
+Renamed parameter SINGLE_CHANNEL_SELECTION (instead of Single_Channel_Selection) to SINGLE_CHANNEL_SELECTION
+Renamed parameter SINGLE_CHANNEL_ENABLE_CALIBRATION (instead of Single_Channel_Enable_Calibration) to SINGLE_CHANNEL_ENABLE_CALIBRATION
+Renamed parameter BIPOLAR_OPERATION (instead of Bipolar_operation) to BIPOLAR_OPERATION
+Renamed parameter SINGLE_CHANNEL_ACQUISITION_TIME (instead of Single_Channel_Acquisition_time) to SINGLE_CHANNEL_ACQUISITION_TIME
+Renamed parameter CHANNEL_AVERAGING (instead of Channel_Averaging) to CHANNEL_AVERAGING
+Renamed parameter ADC_OFFSET_CALIBRATION (instead of ADC_Offset_Calibration) to ADC_OFFSET_CALIBRATION
+Renamed parameter ADC_OFFSET_AND_GAIN_CALIBRATION (instead of ADC_Offset_and_Gain_Calibration) to ADC_OFFSET_AND_GAIN_CALIBRATION
+Renamed parameter SENSOR_OFFSET_CALIBRATION (instead of Sensor_Offset_Calibration) to SENSOR_OFFSET_CALIBRATION
+Renamed parameter SENSOR_OFFSET_AND_GAIN_CALIBRATION (instead of Sensor_Offset_and_Gain_Calibration) to SENSOR_OFFSET_AND_GAIN_CALIBRATION
+Renamed parameter ENABLE_EXTERNAL_MUX (instead of Enable_External_Mux) to ENABLE_EXTERNAL_MUX
+Renamed parameter EXTERNAL_MUX_CHANNEL (instead of External_Mux_Channel) to EXTERNAL_MUX_CHANNEL
+Renamed parameter CHANNEL_ENABLE_CALIBRATION (instead of Channel_Enable_Calibration) to CHANNEL_ENABLE_CALIBRATION
+Renamed parameter CHANNEL_ENABLE_TEMPERATURE (instead of Channel_Enable_Temperature) to CHANNEL_ENABLE_TEMPERATURE
+Renamed parameter CHANNEL_ENABLE_VCCINT (instead of Channel_Enable_Vccint) to CHANNEL_ENABLE_VCCINT
+Renamed parameter CHANNEL_ENABLE_VCCAUX (instead of Channel_Enable_Vccaux) to CHANNEL_ENABLE_VCCAUX
+Renamed parameter CHANNEL_ENABLE_VP_VN (instead of Channel_Enable_VP_VN) to CHANNEL_ENABLE_VP_VN
+Renamed parameter CHANNEL_ENABLE_VREFP (instead of Channel_Enable_Vrefp) to CHANNEL_ENABLE_VREFP
+Renamed parameter CHANNEL_ENABLE_VREFN (instead of Channel_Enable_Vrefn) to CHANNEL_ENABLE_VREFN
+Renamed parameter CHANNEL_ENABLE_VBRAM (instead of Channel_Enable_Vbram) to CHANNEL_ENABLE_VBRAM
+Renamed parameter AVERAGE_ENABLE_VBRAM (instead of Average_Enable_Vbram) to AVERAGE_ENABLE_VBRAM
+Renamed parameter CHANNEL_ENABLE_VCCPINT (instead of Channel_Enable_Vccpint) to CHANNEL_ENABLE_VCCPINT
+Renamed parameter AVERAGE_ENABLE_VCCPINT (instead of Average_Enable_Vccpint) to AVERAGE_ENABLE_VCCPINT
+Renamed parameter CHANNEL_ENABLE_VCCPAUX (instead of Channel_Enable_Vccpaux) to CHANNEL_ENABLE_VCCPAUX
+Renamed parameter AVERAGE_ENABLE_VCCPAUX (instead of Average_Enable_Vccpaux) to AVERAGE_ENABLE_VCCPAUX
+Renamed parameter CHANNEL_ENABLE_VCCDDRO (instead of Channel_Enable_Vccddro) to CHANNEL_ENABLE_VCCDDRO
+Renamed parameter AVERAGE_ENABLE_VCCDDRO (instead of Average_Enable_Vccddro) to AVERAGE_ENABLE_VCCDDRO
+Renamed parameter CHANNEL_ENABLE_VAUXP0_VAUXN0 (instead of Channel_Enable_Vauxp0_Vauxn0) to CHANNEL_ENABLE_VAUXP0_VAUXN0
+Renamed parameter CHANNEL_ENABLE_VAUXP1_VAUXN1 (instead of Channel_Enable_Vauxp1_Vauxn1) to CHANNEL_ENABLE_VAUXP1_VAUXN1
+Renamed parameter CHANNEL_ENABLE_VAUXP2_VAUXN2 (instead of Channel_Enable_Vauxp2_Vauxn2) to CHANNEL_ENABLE_VAUXP2_VAUXN2
+Renamed parameter CHANNEL_ENABLE_VAUXP3_VAUXN3 (instead of Channel_Enable_Vauxp3_Vauxn3) to CHANNEL_ENABLE_VAUXP3_VAUXN3
+Renamed parameter CHANNEL_ENABLE_VAUXP4_VAUXN4 (instead of Channel_Enable_Vauxp4_Vauxn4) to CHANNEL_ENABLE_VAUXP4_VAUXN4
+Renamed parameter CHANNEL_ENABLE_VAUXP5_VAUXN5 (instead of Channel_Enable_Vauxp5_Vauxn5) to CHANNEL_ENABLE_VAUXP5_VAUXN5
+Renamed parameter CHANNEL_ENABLE_VAUXP6_VAUXN6 (instead of Channel_Enable_Vauxp6_Vauxn6) to CHANNEL_ENABLE_VAUXP6_VAUXN6
+Renamed parameter CHANNEL_ENABLE_VAUXP7_VAUXN7 (instead of Channel_Enable_Vauxp7_Vauxn7) to CHANNEL_ENABLE_VAUXP7_VAUXN7
+Renamed parameter CHANNEL_ENABLE_VAUXP8_VAUXN8 (instead of Channel_Enable_Vauxp8_Vauxn8) to CHANNEL_ENABLE_VAUXP8_VAUXN8
+Renamed parameter CHANNEL_ENABLE_VAUXP9_VAUXN9 (instead of Channel_Enable_Vauxp9_Vauxn9) to CHANNEL_ENABLE_VAUXP9_VAUXN9
+Renamed parameter CHANNEL_ENABLE_VAUXP10_VAUXN10 (instead of Channel_Enable_Vauxp10_Vauxn10) to CHANNEL_ENABLE_VAUXP10_VAUXN10
+Renamed parameter CHANNEL_ENABLE_VAUXP11_VAUXN11 (instead of Channel_Enable_Vauxp11_Vauxn11) to CHANNEL_ENABLE_VAUXP11_VAUXN11
+Renamed parameter CHANNEL_ENABLE_VAUXP12_VAUXN12 (instead of Channel_Enable_Vauxp12_Vauxn12) to CHANNEL_ENABLE_VAUXP12_VAUXN12
+Renamed parameter CHANNEL_ENABLE_VAUXP13_VAUXN13 (instead of Channel_Enable_Vauxp13_Vauxn13) to CHANNEL_ENABLE_VAUXP13_VAUXN13
+Renamed parameter CHANNEL_ENABLE_VAUXP14_VAUXN14 (instead of Channel_Enable_Vauxp14_Vauxn14) to CHANNEL_ENABLE_VAUXP14_VAUXN14
+Renamed parameter CHANNEL_ENABLE_VAUXP15_VAUXN15 (instead of Channel_Enable_Vauxp15_Vauxn15) to CHANNEL_ENABLE_VAUXP15_VAUXN15
+Renamed parameter AVERAGE_ENABLE_VP_VN (instead of Average_Enable_VP_VN) to AVERAGE_ENABLE_VP_VN
+Renamed parameter AVERAGE_ENABLE_VAUXP0_VAUXN0 (instead of Average_Enable_Vauxp0_Vauxn0) to AVERAGE_ENABLE_VAUXP0_VAUXN0
+Renamed parameter AVERAGE_ENABLE_VAUXP1_VAUXN1 (instead of Average_Enable_Vauxp1_Vauxn1) to AVERAGE_ENABLE_VAUXP1_VAUXN1
+Renamed parameter AVERAGE_ENABLE_VAUXP2_VAUXN2 (instead of Average_Enable_Vauxp2_Vauxn2) to AVERAGE_ENABLE_VAUXP2_VAUXN2
+Renamed parameter AVERAGE_ENABLE_VAUXP3_VAUXN3 (instead of Average_Enable_Vauxp3_Vauxn3) to AVERAGE_ENABLE_VAUXP3_VAUXN3
+Renamed parameter AVERAGE_ENABLE_VAUXP4_VAUXN4 (instead of Average_Enable_Vauxp4_Vauxn4) to AVERAGE_ENABLE_VAUXP4_VAUXN4
+Renamed parameter AVERAGE_ENABLE_VAUXP5_VAUXN5 (instead of Average_Enable_Vauxp5_Vauxn5) to AVERAGE_ENABLE_VAUXP5_VAUXN5
+Renamed parameter AVERAGE_ENABLE_VAUXP6_VAUXN6 (instead of Average_Enable_Vauxp6_Vauxn6) to AVERAGE_ENABLE_VAUXP6_VAUXN6
+Renamed parameter AVERAGE_ENABLE_VAUXP7_VAUXN7 (instead of Average_Enable_Vauxp7_Vauxn7) to AVERAGE_ENABLE_VAUXP7_VAUXN7
+Renamed parameter AVERAGE_ENABLE_VAUXP8_VAUXN8 (instead of Average_Enable_Vauxp8_Vauxn8) to AVERAGE_ENABLE_VAUXP8_VAUXN8
+Renamed parameter AVERAGE_ENABLE_VAUXP9_VAUXN9 (instead of Average_Enable_Vauxp9_Vauxn9) to AVERAGE_ENABLE_VAUXP9_VAUXN9
+Renamed parameter AVERAGE_ENABLE_VAUXP10_VAUXN10 (instead of Average_Enable_Vauxp10_Vauxn10) to AVERAGE_ENABLE_VAUXP10_VAUXN10
+Renamed parameter AVERAGE_ENABLE_VAUXP11_VAUXN11 (instead of Average_Enable_Vauxp11_Vauxn11) to AVERAGE_ENABLE_VAUXP11_VAUXN11
+Renamed parameter AVERAGE_ENABLE_VAUXP12_VAUXN12 (instead of Average_Enable_Vauxp12_Vauxn12) to AVERAGE_ENABLE_VAUXP12_VAUXN12
+Renamed parameter AVERAGE_ENABLE_VAUXP13_VAUXN13 (instead of Average_Enable_Vauxp13_Vauxn13) to AVERAGE_ENABLE_VAUXP13_VAUXN13
+Renamed parameter AVERAGE_ENABLE_VAUXP14_VAUXN14 (instead of Average_Enable_Vauxp14_Vauxn14) to AVERAGE_ENABLE_VAUXP14_VAUXN14
+Renamed parameter AVERAGE_ENABLE_VAUXP15_VAUXN15 (instead of Average_Enable_Vauxp15_Vauxn15) to AVERAGE_ENABLE_VAUXP15_VAUXN15
+Renamed parameter AVERAGE_ENABLE_TEMPERATURE (instead of Average_Enable_Temperature) to AVERAGE_ENABLE_TEMPERATURE
+Renamed parameter AVERAGE_ENABLE_VCCINT (instead of Average_Enable_Vccint) to AVERAGE_ENABLE_VCCINT
+Renamed parameter AVERAGE_ENABLE_VCCAUX (instead of Average_Enable_Vccaux) to AVERAGE_ENABLE_VCCAUX
+Renamed parameter BIPOLAR_VP_VN (instead of Bipolar_VP_VN) to BIPOLAR_VP_VN
+Renamed parameter BIPOLAR_VAUXP0_VAUXN0 (instead of Bipolar_Vauxp0_Vauxn0) to BIPOLAR_VAUXP0_VAUXN0
+Renamed parameter BIPOLAR_VAUXP1_VAUXN1 (instead of Bipolar_Vauxp1_Vauxn1) to BIPOLAR_VAUXP1_VAUXN1
+Renamed parameter BIPOLAR_VAUXP2_VAUXN2 (instead of Bipolar_Vauxp2_Vauxn2) to BIPOLAR_VAUXP2_VAUXN2
+Renamed parameter BIPOLAR_VAUXP3_VAUXN3 (instead of Bipolar_Vauxp3_Vauxn3) to BIPOLAR_VAUXP3_VAUXN3
+Renamed parameter BIPOLAR_VAUXP4_VAUXN4 (instead of Bipolar_Vauxp4_Vauxn4) to BIPOLAR_VAUXP4_VAUXN4
+Renamed parameter BIPOLAR_VAUXP5_VAUXN5 (instead of Bipolar_Vauxp5_Vauxn5) to BIPOLAR_VAUXP5_VAUXN5
+Renamed parameter BIPOLAR_VAUXP6_VAUXN6 (instead of Bipolar_Vauxp6_Vauxn6) to BIPOLAR_VAUXP6_VAUXN6
+Renamed parameter BIPOLAR_VAUXP7_VAUXN7 (instead of Bipolar_Vauxp7_Vauxn7) to BIPOLAR_VAUXP7_VAUXN7
+Renamed parameter BIPOLAR_VAUXP8_VAUXN8 (instead of Bipolar_Vauxp8_Vauxn8) to BIPOLAR_VAUXP8_VAUXN8
+Renamed parameter BIPOLAR_VAUXP9_VAUXN9 (instead of Bipolar_Vauxp9_Vauxn9) to BIPOLAR_VAUXP9_VAUXN9
+Renamed parameter BIPOLAR_VAUXP10_VAUXN10 (instead of Bipolar_Vauxp10_Vauxn10) to BIPOLAR_VAUXP10_VAUXN10
+Renamed parameter BIPOLAR_VAUXP11_VAUXN11 (instead of Bipolar_Vauxp11_Vauxn11) to BIPOLAR_VAUXP11_VAUXN11
+Renamed parameter BIPOLAR_VAUXP12_VAUXN12 (instead of Bipolar_Vauxp12_Vauxn12) to BIPOLAR_VAUXP12_VAUXN12
+Renamed parameter BIPOLAR_VAUXP13_VAUXN13 (instead of Bipolar_Vauxp13_Vauxn13) to BIPOLAR_VAUXP13_VAUXN13
+Renamed parameter BIPOLAR_VAUXP14_VAUXN14 (instead of Bipolar_Vauxp14_Vauxn14) to BIPOLAR_VAUXP14_VAUXN14
+Renamed parameter BIPOLAR_VAUXP15_VAUXN15 (instead of Bipolar_Vauxp15_Vauxn15) to BIPOLAR_VAUXP15_VAUXN15
+Renamed parameter ACQUISITION_TIME_VP_VN (instead of Acquisition_Time_VP_VN) to ACQUISITION_TIME_VP_VN
+Renamed parameter ACQUISITION_TIME_VAUXP0_VAUXN0 (instead of Acquisition_Time_Vauxp0_Vauxn0) to ACQUISITION_TIME_VAUXP0_VAUXN0
+Renamed parameter ACQUISITION_TIME_VAUXP1_VAUXN1 (instead of Acquisition_Time_Vauxp1_Vauxn1) to ACQUISITION_TIME_VAUXP1_VAUXN1
+Renamed parameter ACQUISITION_TIME_VAUXP2_VAUXN2 (instead of Acquisition_Time_Vauxp2_Vauxn2) to ACQUISITION_TIME_VAUXP2_VAUXN2
+Renamed parameter ACQUISITION_TIME_VAUXP3_VAUXN3 (instead of Acquisition_Time_Vauxp3_Vauxn3) to ACQUISITION_TIME_VAUXP3_VAUXN3
+Renamed parameter ACQUISITION_TIME_VAUXP4_VAUXN4 (instead of Acquisition_Time_Vauxp4_Vauxn4) to ACQUISITION_TIME_VAUXP4_VAUXN4
+Renamed parameter ACQUISITION_TIME_VAUXP5_VAUXN5 (instead of Acquisition_Time_Vauxp5_Vauxn5) to ACQUISITION_TIME_VAUXP5_VAUXN5
+Renamed parameter ACQUISITION_TIME_VAUXP6_VAUXN6 (instead of Acquisition_Time_Vauxp6_Vauxn6) to ACQUISITION_TIME_VAUXP6_VAUXN6
+Renamed parameter ACQUISITION_TIME_VAUXP7_VAUXN7 (instead of Acquisition_Time_Vauxp7_Vauxn7) to ACQUISITION_TIME_VAUXP7_VAUXN7
+Renamed parameter ACQUISITION_TIME_VAUXP8_VAUXN8 (instead of Acquisition_Time_Vauxp8_Vauxn8) to ACQUISITION_TIME_VAUXP8_VAUXN8
+Renamed parameter ACQUISITION_TIME_VAUXP9_VAUXN9 (instead of Acquisition_Time_Vauxp9_Vauxn9) to ACQUISITION_TIME_VAUXP9_VAUXN9
+Renamed parameter ACQUISITION_TIME_VAUXP10_VAUXN10 (instead of Acquisition_Time_Vauxp10_Vauxn10) to ACQUISITION_TIME_VAUXP10_VAUXN10
+Renamed parameter ACQUISITION_TIME_VAUXP11_VAUXN11 (instead of Acquisition_Time_Vauxp11_Vauxn11) to ACQUISITION_TIME_VAUXP11_VAUXN11
+Renamed parameter ACQUISITION_TIME_VAUXP12_VAUXN12 (instead of Acquisition_Time_Vauxp12_Vauxn12) to ACQUISITION_TIME_VAUXP12_VAUXN12
+Renamed parameter ACQUISITION_TIME_VAUXP13_VAUXN13 (instead of Acquisition_Time_Vauxp13_Vauxn13) to ACQUISITION_TIME_VAUXP13_VAUXN13
+Renamed parameter ACQUISITION_TIME_VAUXP14_VAUXN14 (instead of Acquisition_Time_Vauxp14_Vauxn14) to ACQUISITION_TIME_VAUXP14_VAUXN14
+Renamed parameter ACQUISITION_TIME_VAUXP15_VAUXN15 (instead of Acquisition_Time_Vauxp15_Vauxn15) to ACQUISITION_TIME_VAUXP15_VAUXN15
+Renamed parameter ENABLE_JTAG_ARBITER (instead of Enable_JTAG_Arbiter) to ENABLE_JTAG_ARBITER
+Renamed parameter ACQUISITION_TIME (instead of Acquisition_Time) to ACQUISITION_TIME
+Renamed parameter ENABLE_TEMP_BUS (instead of Enable_Temp_Bus) to ENABLE_TEMP_BUS
+Set parameter VCCINT_ALARM_UPPER to value 1.03 (source 'default')
+Set parameter VCCINT_ALARM_LOWER to value 0.97 (source 'default')
+
