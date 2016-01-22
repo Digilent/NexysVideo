@@ -1,0 +1,37 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Thu Jan 21 15:59:13 2016
+| Host         : WK86 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'charLib'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of charLib from xilinx.com:ip:blk_mem_gen:8.2 (Rev. 6) to xilinx.com:ip:blk_mem_gen:8.3
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Jul 20 12:33:10 2015
+| Host         : WK86 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'charLib'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of charLib (xilinx.com:ip:blk_mem_gen:8.2) from (Rev. 5) to (Rev. 6)
+
