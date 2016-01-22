@@ -3,7 +3,7 @@
 Vivado Project Options:
    Target Device                   : xc7a200t-sbg484
    Speed Grade                     : -1
-   HDL                             : verilog
+   HDL                             : vhdl
    Synthesis Tool                  : VIVADO
 
 MIG Output Options:

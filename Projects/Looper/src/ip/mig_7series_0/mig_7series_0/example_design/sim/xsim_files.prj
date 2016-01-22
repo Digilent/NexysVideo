@@ -82,7 +82,7 @@ verilog  work  ../../../sources_1/imports/rtl/traffic_gen/mig_7series_v2_4_traff
 verilog  work  ../../../sources_1/imports/rtl/traffic_gen/mig_7series_v2_4_vio_init_pattern_bram.v
 verilog  work  ../../../sources_1/imports/rtl/traffic_gen/mig_7series_v2_4_wr_data_gen.v
 verilog  work  ../../../sources_1/imports/rtl/traffic_gen/mig_7series_v2_4_write_data_path.v
-verilog  work  ../../../sources_1/imports/rtl/example_top.v
+vhdl  work  ../../../sources_1/imports/rtl/example_top.vhd
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v2_4_clk_ibuf.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v2_4_infrastructure.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v2_4_iodelay_ctrl.v
@@ -132,7 +132,7 @@ verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_prbs_rdlvl.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_rdlvl.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_tempmon.v
-verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_top.v
+vhdl  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_top.vhd
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_wrcal.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_wrlvl.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v2_4_ddr_phy_wrlvl_off_delay.v
@@ -147,8 +147,8 @@ verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v2_4_ui_rd_data.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v2_4_ui_top.v
 verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v2_4_ui_wr_data.v
-verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v
-verilog  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v
+vhdl  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.vhd
+vhdl  work  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.vhd
 verilog  work  $XILINX_VIVADO/data/verilog/src/glbl.v
 sv  work ddr3_model.sv -d x4Gb -d sg125 -d x16 
 verilog  work  wiredly.v

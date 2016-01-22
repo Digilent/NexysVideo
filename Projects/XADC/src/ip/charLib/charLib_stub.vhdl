@@ -1,9 +1,10 @@
 -- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
--- Date        : Wed Jan 20 19:01:35 2016
+-- Date        : Thu Jan 21 18:29:18 2016
 -- Host        : WK86 running 64-bit Service Pack 1  (build 7601)
--- Command     : write_vhdl -force -mode synth_stub C:/Work/Github/Working/XADC_Demo/src/ip/charLib/charLib_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               C:/Work/Github/NexysVideo/Projects/XADC/src/ip/charLib/charLib_stub.vhdl
 -- Design      : charLib
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a200tsbg484-1

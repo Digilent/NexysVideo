@@ -75,10 +75,10 @@ vlib work
 #vmap secureip <secureip lib path>
 
 #Compile all modules#
-vlog  ../../../sources_1/imports/rtl/*.v
+vcom  ../../../sources_1/imports/rtl/*.vhd
 vlog  -incr ../../../sources_1/imports/rtl/traffic_gen/*.v
-vlog  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v
-vlog  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v
+vcom  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.vhd
+vcom  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.vhd
 vlog  -incr ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/*.v
 vlog  -incr ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/*.v
 vlog  -incr ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/*.v
@@ -86,7 +86,7 @@ vlog  -incr ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip
 vlog  -incr ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/*.v
 vlog  -incr ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/*.v
 
-
+vcom  ../../../sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/*.vhd
 #Compile files in sim folder (excluding model parameter file)#
 #$XILINX variable must be set
 vlog  -incr $env(XILINX_VIVADO)/data/verilog/src/glbl.v

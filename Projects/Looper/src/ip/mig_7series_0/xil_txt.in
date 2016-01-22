@@ -6,16 +6,16 @@ SET_PREFERENCE devicefamily artix7
 SET_PREFERENCE device xc7a200t
 SET_PREFERENCE speedgrade -1
 SET_PREFERENCE package sbg484
-SET_PREFERENCE verilogsim true
-SET_PREFERENCE vhdlsim false
-SET_PREFERENCE designentry Verilog
-SET_PREFERENCE outputdirectory c:/Work/Github/Working/Nexys_Video_Looper_1_2/Nexys_Video_Looper_1_2.srcs/sources_1/ip/mig_7series_0/_tmp/
-SET_PREFERENCE subworkingdirectory c:/Work/Github/Working/Nexys_Video_Looper_1_2/Nexys_Video_Looper_1_2.srcs/sources_1/ip/mig_7series_0/_tmp/
+SET_PREFERENCE verilogsim false
+SET_PREFERENCE vhdlsim true
+SET_PREFERENCE designentry VHDL
+SET_PREFERENCE outputdirectory c:/Work/Github/NexysVideo/Projects/Looper/src/ip/mig_7series_0/_tmp/
+SET_PREFERENCE subworkingdirectory c:/Work/Github/NexysVideo/Projects/Looper/src/ip/mig_7series_0/_tmp/
 SET_PREFERENCE flowvendor Other
 SET_PREFERENCE tool vivado
 SET_PREFERENCE compnamestatus 0
 SET_PARAMETER component_name mig_7series_0
-SET_PARAMETER xml_input_file C:/Work/Github/Working/Nexys_Video_Looper_1_2/Nexys_Video_Looper_1_2.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+SET_PARAMETER xml_input_file C:/Work/Github/NexysVideo/Projects/Looper/src/ip/mig_7series_0/mig_a.prj
 SET_PARAMETER data_dir_path c:/Xilinx/Vivado/2015.3/data/ip/xilinx/mig_7series_v2_4
 SET_CORE_NAME Memory Interface Generator (MIG 7 Series)
 SET_CORE_VERSION 2.3
