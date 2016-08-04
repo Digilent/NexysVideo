@@ -52,7 +52,7 @@ module top(
     );
     
     
-    always@(keycode)
+    always@(keycode, keycodev)
         if (keycode[7:0] == 8'hf0) begin
             cn <= 1'b0;
             bcount <= 3'd0;
