@@ -202,11 +202,11 @@ temp_delay_ms <= "000001100100" when (after_state = DispContrast1) else --100 ms
 						after_state <= InvertDisp1;
 						current_state <= Transition1;
 					when InvertDisp1	=>
-						temp_spi_data <= "10100000"; --0xA1
+						temp_spi_data <= "10100000"; --0xA1 or 0xA0
 						after_state <= ComConfig1;
 						current_state <= Transition1;
 					when InvertDisp2 =>
-						temp_spi_data <= "11001000"; --0xC8
+						temp_spi_data <= "11000000"; --0xC8 or 0xC0
 						after_state <= ComConfig1;
 						current_state <= Transition1;
 					when ComConfig1	=>

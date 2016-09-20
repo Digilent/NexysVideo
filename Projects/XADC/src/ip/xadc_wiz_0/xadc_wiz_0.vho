@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: xilinx.com:ip:xadc_wiz:3.2
+-- IP VLNV: xilinx.com:ip:xadc_wiz:3.3
 -- IP Revision: 0
 
 -- The following code must appear in the VHDL architecture header.

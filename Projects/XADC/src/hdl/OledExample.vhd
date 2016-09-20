@@ -66,11 +66,16 @@ COMPONENT Delay
     END COMPONENT;
 	 
 --Character Library, Latency = 1
-COMPONENT charLib
+COMPONENT block_rom
+  GENERIC (
+    ADDR_WIDTH : integer;
+    DATA_WIDTH : integer;
+    FILENAME : string
+  );
   PORT (
-    clka : IN STD_LOGIC; --Attach System Clock to it
-    addra : IN STD_LOGIC_VECTOR(10 DOWNTO 0); --First 8 bits is the ASCII value of the character the last 3 bits are the parts of the char
-    douta : OUT STD_LOGIC_VECTOR(7 DOWNTO 0) --Data byte out
+    clk : IN STD_LOGIC; --Attach System Clock to it
+    addr : IN STD_LOGIC_VECTOR(ADDR_WIDTH-1 DOWNTO 0); --First 8 bits is the ASCII value of the character the last 3 bits are the parts of the char
+    dout : OUT STD_LOGIC_VECTOR(DATA_WIDTH-1 DOWNTO 0) --Data byte out
   );
 END COMPONENT;
 
@@ -265,13 +270,19 @@ FIN <= '1' when (current_state = Done) else
           DELAY_FIN => temp_delay_fin
         );
 --Instantiate Memory Block
-	CHAR_LIB_COMP : charLib
+  CHAR_LIB_COMP : block_rom
+  GENERIC MAP (
+    ADDR_WIDTH => 10,
+    DATA_WIDTH => 8,
+    FILENAME => "charLib.dat"
+  )
   PORT MAP (
-    clka => CLK,
-    addra => temp_addr,
-    douta => temp_dout
+    clk  => CLK,
+    addr => temp_addr(9 downto 0),
+    dout => temp_dout
   );
-	process (CLK)
+  
+  process (CLK)
 	begin
 		if(rising_edge(CLK)) then
 			case(current_state) is
@@ -330,7 +341,7 @@ FIN <= '1' when (current_state = Done) else
 				--2. If on the last character of the page transition update the page number, if on the last page(3)
 				--			then the updateScreen go to "after_update_state" after 
 				when UpdateScreen =>
-					temp_char <= current_screen(CONV_INTEGER(temp_page),temp_index);
+					temp_char <= x"41";--current_screen(CONV_INTEGER(temp_page),temp_index);
 					if(temp_index = 15) then	
 						temp_index <= 0;
 						temp_page <= temp_page + 1;

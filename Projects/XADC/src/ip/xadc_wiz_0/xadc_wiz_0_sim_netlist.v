@@ -1,10 +1,10 @@
-// Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
-// Date        : Wed Jan 20 19:00:25 2016
-// Host        : WK86 running 64-bit Service Pack 1  (build 7601)
+// Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+// Date        : Wed Aug 17 11:53:47 2016
+// Host        : WK87 running 64-bit Service Pack 1  (build 7601)
 // Command     : write_verilog -force -mode funcsim
-//               C:/Work/Github/Working/XADC_Demo/src/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v
+//               C:/Users/arbrown.NI/Desktop/work/Ports/nv_xadc_2/XADC/src/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v
 // Design      : xadc_wiz_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,7 +12,6 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* core_generation_info = "xadc_wiz_0,xadc_wiz_v3_2_0,{component_name=xadc_wiz_0,enable_axi=false,enable_axi4stream=false,dclk_frequency=100,enable_busy=true,enable_convst=false,enable_convstclk=false,enable_dclk=true,enable_drp=true,enable_eoc=true,enable_eos=true,enable_vbram_alaram=false,enable_vccddro_alaram=false,enable_Vccint_Alaram=false,enable_Vccaux_alaram=trueenable_vccpaux_alaram=false,enable_vccpint_alaram=false,ot_alaram=false,user_temp_alaram=true,timing_mode=continuous,channel_averaging=None,sequencer_mode=on,startup_channel_selection=contineous_sequence}" *) 
 (* NotValidForBitStream *)
 module xadc_wiz_0
    (daddr_in,
@@ -98,7 +97,7 @@ module xadc_wiz_0
   (* box_type = "PRIMITIVE" *) 
   XADC #(
     .INIT_40(16'h0000),
-    .INIT_41(16'h2105),
+    .INIT_41(16'h21A5),
     .INIT_42(16'h0400),
     .INIT_43(16'h0000),
     .INIT_44(16'h0000),

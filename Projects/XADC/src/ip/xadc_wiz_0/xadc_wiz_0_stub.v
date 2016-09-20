@@ -1,9 +1,10 @@
-// Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
-// Date        : Wed Jan 20 19:00:25 2016
-// Host        : WK86 running 64-bit Service Pack 1  (build 7601)
-// Command     : write_verilog -force -mode synth_stub C:/Work/Github/Working/XADC_Demo/src/ip/xadc_wiz_0/xadc_wiz_0_stub.v
+// Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+// Date        : Wed Aug 17 11:53:47 2016
+// Host        : WK87 running 64-bit Service Pack 1  (build 7601)
+// Command     : write_verilog -force -mode synth_stub
+//               C:/Users/arbrown.NI/Desktop/work/Ports/nv_xadc_2/XADC/src/ip/xadc_wiz_0/xadc_wiz_0_stub.v
 // Design      : xadc_wiz_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a200tsbg484-1

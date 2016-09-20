@@ -84,7 +84,7 @@ end xadc_wiz_0;
 architecture xilinx of xadc_wiz_0 is
 
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of xilinx : architecture is "xadc_wiz_0,xadc_wiz_v3_2_0,{component_name=xadc_wiz_0,enable_axi=false,enable_axi4stream=false,dclk_frequency=100,enable_busy=true,enable_convst=false,enable_convstclk=false,enable_dclk=true,enable_drp=true,enable_eoc=true,enable_eos=true,enable_vbram_alaram=false,enable_vccddro_alaram=false,enable_Vccint_Alaram=false,enable_Vccaux_alaram=trueenable_vccpaux_alaram=false,enable_vccpint_alaram=false,ot_alaram=false,user_temp_alaram=true,timing_mode=continuous,channel_averaging=None,sequencer_mode=on,startup_channel_selection=contineous_sequence}";
+  attribute CORE_GENERATION_INFO of xilinx : architecture is "xadc_wiz_0,xadc_wiz_v3_3_0,{component_name=xadc_wiz_0,enable_axi=false,enable_axi4stream=false,dclk_frequency=100,enable_busy=true,enable_convst=false,enable_convstclk=false,enable_dclk=true,enable_drp=true,enable_eoc=true,enable_eos=true,enable_vbram_alaram=false,enable_vccddro_alaram=false,enable_Vccint_Alaram=false,enable_Vccaux_alaram=trueenable_vccpaux_alaram=false,enable_vccpint_alaram=false,ot_alaram=false,user_temp_alaram=true,timing_mode=continuous,channel_averaging=None,sequencer_mode=on,startup_channel_selection=contineous_sequence}";
 
 
   signal FLOAT_VCCINT_ALARM : std_logic;
@@ -151,7 +151,7 @@ begin
  U0 : XADC
      generic map(
         INIT_40 => X"0000", -- config reg 0
-        INIT_41 => X"2105", -- config reg 1
+        INIT_41 => X"21A5", -- config reg 1
         INIT_42 => X"0400", -- config reg 2
         INIT_48 => X"0000", -- Sequencer channel selection
         INIT_49 => X"0303", -- Sequencer channel selection
